@@ -49,23 +49,15 @@
 
     <Button
         android:id="@+id/initbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="199dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:onClick="init"
-        android:text="initialise"
-        app:layout_constraintEnd_toStartOf="@+id/updatebtn"
-        app:layout_constraintTop_toBottomOf="@+id/startbtn" />
-
-    <Button
-        android:id="@+id/updatebtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="104dp"
-        android:text="update"
+        android:text="RESET"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stopbtn" />
 
 </android.support.constraint.ConstraintLayout>
